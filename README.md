@@ -28,6 +28,6 @@ Here are some ideas to get you sstarted:
 - 📫 How to reach me:  
   📧 michael.c.p.lukito@gmail.com  
   📸 [Instagram @mcmikechrist](https://instagram.com/mcmikechrist)
-  💼 [LinkedIn](https://www.linkedin.com/in/michael-christian-623036233/)  
+  💼 [LinkedIn Michael Christian](https://www.linkedin.com/in/michael-christian-623036233/)  
 - 😄 Pronouns:  `he/him`
 - ⚡ Fun fact:  *I enjoy combining game mechanics with real-life logic systems (like farming sims with economy models)*
