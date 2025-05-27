@@ -10,10 +10,10 @@
 
 💡 Passionate about Web Development, Mobile Development, Game Development, Information Systems, and Machine Learning  
 
-🛠️ Tech Stack : 
+🛠️ Tech Stack                                               
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" /> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /> <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" /> <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
 
-🧰 Tools & Frameworks : 
+🧰 Tools & Frameworks                                        
   <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"> <img src= "https://img.shields.io/badge/Unity-100000?style=for-the-badge&logo=unity&logoColor=white"> <img src= "https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"> <img src= "https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white">
 
 🌐 Currently learning Full Stack Web Development using  
