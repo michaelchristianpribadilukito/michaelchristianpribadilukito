@@ -37,7 +37,9 @@ Here are some ideas to get you sstarted:
 -->
 
 ##### 📫 Connect with me
-  ![https://instagram.com/mcmikechrist](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white) ![https://www.linkedin.com/in/michael-christian-623036233/](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)
+  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mcmikechrist)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michael-christian-623036233/)
+
 
 ##### My Github Stats
 ![MC's GitHub stats](https://github-readme-stats.vercel.app/api?username=michaelchristianpribadilukito&show_icons=true&theme=radical)
