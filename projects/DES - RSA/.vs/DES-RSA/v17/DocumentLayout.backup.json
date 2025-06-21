@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\College\\Semester 6\\Cryptografi\\project\\DES - RSA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E50AD2B3-99EE-4EA3-811F-45FC52B863E5}|DES-RSA.csproj|d:\\college\\semester 6\\cryptografi\\project\\des - rsa\\models\\desmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50AD2B3-99EE-4EA3-811F-45FC52B863E5}|DES-RSA.csproj|solutionrelative:models\\desmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E50AD2B3-99EE-4EA3-811F-45FC52B863E5}|DES-RSA.csproj|D:\\College\\Semester 6\\Cryptografi\\project\\DES - RSA\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E50AD2B3-99EE-4EA3-811F-45FC52B863E5}|DES-RSA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DesModel.cs",
+              "DocumentMoniker": "D:\\College\\Semester 6\\Cryptografi\\project\\DES - RSA\\Models\\DesModel.cs",
+              "RelativeDocumentMoniker": "Models\\DesModel.cs",
+              "ToolTip": "D:\\College\\Semester 6\\Cryptografi\\project\\DES - RSA\\Models\\DesModel.cs",
+              "RelativeToolTip": "Models\\DesModel.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T05:48:11.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\College\\Semester 6\\Cryptografi\\project\\DES - RSA\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\College\\Semester 6\\Cryptografi\\project\\DES - RSA\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T08:31:57.865Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

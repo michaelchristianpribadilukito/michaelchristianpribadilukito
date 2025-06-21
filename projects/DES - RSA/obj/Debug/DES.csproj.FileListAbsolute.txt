@@ -1,0 +1,10 @@
+D:\College\Semester 6\Cryptografi\project\DES\bin\Debug\DES.exe.config
+D:\College\Semester 6\Cryptografi\project\DES\bin\Debug\DES.exe
+D:\College\Semester 6\Cryptografi\project\DES\bin\Debug\DES.pdb
+D:\College\Semester 6\Cryptografi\project\DES\obj\Debug\DES.csproj.AssemblyReference.cache
+D:\College\Semester 6\Cryptografi\project\DES\obj\Debug\DES.Properties.Resources.resources
+D:\College\Semester 6\Cryptografi\project\DES\obj\Debug\DES.csproj.GenerateResource.cache
+D:\College\Semester 6\Cryptografi\project\DES\obj\Debug\DES.csproj.CoreCompileInputs.cache
+D:\College\Semester 6\Cryptografi\project\DES\obj\Debug\DES.exe
+D:\College\Semester 6\Cryptografi\project\DES\obj\Debug\DES.pdb
+D:\College\Semester 6\Cryptografi\project\DES\obj\Debug\DES.Views.Form1.resources
