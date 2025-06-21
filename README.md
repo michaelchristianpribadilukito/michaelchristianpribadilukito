@@ -1,6 +1,6 @@
 ## Hi there! I'm MC 👋
 
-![Michael Christian](img/github-header-image.png)
+![Michael Christian](profile-assets/github-header-image.png)
 
 😄 Pronouns:  `he/him`
 
