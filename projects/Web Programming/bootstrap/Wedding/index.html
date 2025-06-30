@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MC & Ado Wedding</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- SIMPLY COUNTDOWN -->
+    <link rel="stylesheet" href="countdown/default.css" />
+    <script src="countdown/simplyCountdown.umd.js"></script>
+    <!-- SIMPLY COUNTDOWN -->
+
+    <!-- BOOTSTRAP ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- HERO -->
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h4>Dear <span>Esteemed Guest, </span></h4>
+        <h1>MC & Ado</h1>
+        <p>The wedding reception will be held in:</p>
+        <div class="simply-countdown"></div>
+        <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()"
+          >View invitation</a
+        >
+      </main>
+    </section>
+    <!-- HERO -->
+
+    <!-- OFFCANVAS NAVBAR -->
+    <nav
+      class="navbar navbar-expand-md bg-body-transparent sticky-top mynavbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">MC'Ado </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">MC'Ado</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- OFFCANVAS NAVBAR -->
+
+    <!-- HOME -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>The Wedding</h2>
+            <h3>will be held in Bali on December 25, 2030.</h3>
+            <p>
+              Therefore, we would like to formally invite you to attend our
+              wedding.
+            </p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Michael Christian</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
+                  quas, consequuntur est praesentium temporibus blanditiis?
+                </p>
+                <p>
+                  Son of Mr. Lorem <br />
+                  and <br />
+                  Mrs. Ipsum
+                </p>
+              </div>
+              <div class="col-4">
+                <img
+                  src="img/me.png"
+                  alt="MC"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img
+                  src="img/Ado.jpeg"
+                  alt="Ado"
+                  class="img-responsive rounded-circle"
+                />
+              </div>
+              <div class="col-8">
+                <h3>Ado</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
+                  quas, consequuntur est praesentium temporibus blanditiis?
+                </p>
+                <p>
+                  Daughter of Mr. Ipsum <br />
+                  and <br />
+                  Mrs. Lorem
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- HOME -->
+
+    <!-- INFO -->
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Event Information</h2>
+            <p class="address">
+              Address: Bali Sunset Road Convention Center <br />
+              Jl. Pura Mertasari Jl. Sunset Road, Pemogan, Denpasar Selatan,
+              Kota Denpasar, Bali
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.830144182389!2d115.1881818!3d-8.7076748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd247fbb24f7839%3A0x4fd2e437d32b8f10!2sBali%20Sunset%20Road%20Convention%20Center!5e0!3m2!1sid!2sid!4v1751284123513!5m2!1sid!2sid"
+              width="100%"
+              height="250"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <a
+              href="https://maps.app.goo.gl/vnGhFaDR8giUK7ot7"
+              target="_blank"
+              class="btn btn-light btn-sm my-4"
+              >Click to open the map</a
+            >
+            <p class="description">
+              Please ensure you have the correct address and date. If you arrive
+              at the destination and there are no signs of a wedding taking
+              place, you might have the wrong schedule or the wrong location.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Holy Matrimony</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08:00 AM - 10:00 AM</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Wednesday, December 25, 2025</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                During the Holy Matrimony, we kindly request that you maintain a
+                reverent silence to honor the sanctity of the ceremony.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Reception</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>11:00 AM onwards</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Wednesday, December 25, 2025</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                During the Holy Matrimony, we kindly request that you maintain a
+                reverent silence to honor the sanctity of the ceremony.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- INFO -->
+
+    <!-- STORY -->
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Written in the Stars</span>
+            <h2>Our Love Story</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur excepturi suscipit delectus aliquid fugiat enim?
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/first\ met.jpeg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>The First Time We Met</h3>
+                    <span>December 1, 2026</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consequatur sequi asperiores esse! Aspernatur, eligendi
+                      esse!
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-image"
+                  style="background-image: url(https://picsum.photos/300/300)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Making It Official</h3>
+                    <span>January 1, 2027</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Quasi accusantium debitis consectetur aliquam illo unde
+                      repudiandae explicabo deserunt.
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline">
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/fiancé.jpeg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>She Said Yes!</h3>
+                    <span>October 15, 2027</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Voluptatibus, debitis. Aliquam officiis hic perferendis
+                      quam porro aperiam eum cum itaque.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- STORY -->
+
+    <!-- GALLERY -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>Memories of Our Story</span>
+            <h2>Photo Gallery</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Sapiente, voluptates.
+            </p>
+          </div>
+        </div>
+        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1">
+          <div class="col mt-3">
+            <a
+              href="img/gallery/7efea667-aa5e-4fab-bb56-e1511cdb0331.jpeg"
+              data-toggle="lightbox"
+              data-caption="This describes the image"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnail/7efea667-aa5e-4fab-bb56-e1511cdb0331.jpeg"
+                alt="gambar 1"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/_Romantic Anime Aesthetic _ Sunset Love Story_.jpeg"
+              data-toggle="lightbox"
+              data-caption="This describes the image"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnail/_Romantic Anime Aesthetic _ Sunset Love Story_.jpeg"
+                alt="gambar 2"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/Akira's emerald eyes, pools of shimmering green in….jpeg"
+              data-toggle="lightbox"
+              data-caption="This describes the image"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnail/Akira's emerald eyes, pools of shimmering green in….jpeg"
+                alt="gambar 3"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/Anime Sunset Photos - Download Free High-Quality Pictures _ Freepik.jpeg"
+              data-toggle="lightbox"
+              data-caption="This describes the image"
+              data-gallery="mygallery"
+            >
+              <img
+                src="img/gallery/thumbnail/Anime Sunset Photos - Download Free High-Quality Pictures _ Freepik.jpeg"
+                alt="gambar 4"
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- GALLERY -->
+
+    <!-- RSVP -->
+    <section id="rsvp" class="rsvp">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Confirm Your Attendance</h2>
+            <p>Please fill out the form below to confirm your attendance.</p>
+          </div>
+        </div>
+
+        <form
+          class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbzWe0yG505C8gSem02vnphtK8IbUoMC2aIKLPF4pGK5811HHgre14mksyKtE0yUO1Ji3g/exec"
+          id="my-form"
+        >
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="num" class="form-label">Number of Attendees</label>
+              <input
+                type="number"
+                class="form-control"
+                id="num"
+                name="num"
+                min="1"
+                max="5"
+                length="1"
+                value="1"
+              />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="status" class="form-label">Confirm</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>Choose one</option>
+                <option value="Attending">Attending</option>
+                <option value="Not Attending">Not Attending</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 35px">
+            <button class="btn btn-primary">Send</button>
+          </div>
+        </form>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-6">
+            <div id="disqus_thread"></div>
+            <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+              /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+              (function () {
+                // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "https://mcado-wedding.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- RSVP -->
+
+    <!-- GIFT -->
+    <section id="gifts" class="gifts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <span>With Love and Gratitude</span>
+            <h2>Send a Gift</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore at dolores similique temporibus tempora dignissimos.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center">
+          <div class="col-md-6">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div class="fw-bold">BCA</div>
+                123456789 - Michael Christian
+              </li>
+              <li class="list-group-item">
+                <div class="fw-bold">SAWERIA</div>
+                <img
+                  src="img/saweria.png"
+                  alt="Saweria QRCode"
+                  class="img-thumbnail"
+                  width="150"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- GIFT -->
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block"
+              >&copy; 2025 MC'Ado Wedding. All Rights Reserved.</small
+            >
+            <small class="block"
+              >Design by
+              <a href="https://instagram.com/mcmikechrist"
+                >@mcmikechrist</a
+              ></small
+            >
+
+            <ul class="mt-3">
+              <li>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-tiktok"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <!-- AUDIO -->
+    <div id="audio-container">
+      <audio id="bgm" autoplay loop>
+        <source src="audio/Dried Flowers.mp3" type="audio/mp3" />
+      </audio>
+
+      <div class="audio-icon-wrapper" style="display: none">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+    <!-- AUDIO -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- LIGHTBOX -->
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.5/dist/index.bundle.min.js"></script>
+    <!-- LIGHTBOX -->
+
+    <!-- SIMPLY COUNTDOWN -->
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2030, // Target year (required)
+        month: 12, // Target month [1-12] (required)
+        day: 25, // Target day [1-31] (required)
+        hours: 8, // Target hour [0-23], default: 0
+        words: {
+          // Custom labels, with lambda for plurals
+          days: {
+            root: "day",
+            lambda: (root, n) => (n > 1 ? root + "s" : root),
+          },
+          hours: {
+            root: "hour",
+            lambda: (root, n) => (n > 1 ? root + "s" : root),
+          },
+          minutes: {
+            root: "minute",
+            lambda: (root, n) => (n > 1 ? root + "s" : root),
+          },
+          seconds: {
+            root: "second",
+            lambda: (root, n) => (n > 1 ? root + "s" : root),
+          },
+        },
+      });
+    </script>
+    <!-- SIMPLY COUNTDOWN -->
+
+    <!-- BOOSTRAP JAVASCRIPT -->
+    <script>
+      const stickyTop = document.querySelector(".sticky-top");
+      const offcanvas = document.querySelector(".offcanvas");
+
+      offcanvas.addEventListener("show.bs.offcanvas", function () {
+        stickyTop.style.overflow = "visible";
+      });
+
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickyTop.style.overflow = "hidden";
+      });
+    </script>
+    <!-- BOOSTRAP JAVASCRIPT -->
+
+    <!-- DISABLE-ENABLE SCROLL JS -->
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIconWrapper = document.querySelector(".audio-icon-wrapper");
+      const bgm = document.querySelector("#bgm");
+      const audioIcon = document.querySelector(".audio-icon-wrapper i");
+      let isPlaying = "false";
+      function disableScroll() {
+        const scrollTop =
+          window.pageYOffset || document.documentElement.scrollTop;
+        const scrollLeft =
+          window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        };
+
+        rootElement.style.scrollBehavior = "auto";
+      }
+
+      function enableScroll() {
+        window.onscroll = function () {};
+        rootElement.style.scrollBehavior = "smooth";
+        //localStorage.setItem("opened", "true");
+        playAudio();
+      }
+
+      function playAudio() {
+        bgm.volume = 0.1;
+        audioIconWrapper.style.display = "flex";
+        bgm.play();
+        isPlaying = true;
+      }
+
+      audioIconWrapper.onclick = function () {
+        if (isPlaying) {
+          bgm.pause();
+          audioIcon.classList.remove("bi-disc");
+          audioIcon.classList.add("bi-pause-circle");
+        } else {
+          bgm.play();
+          audioIcon.classList.add("bi-disc");
+          audioIcon.classList.remove("bi-pause-circle");
+        }
+
+        isPlaying = !isPlaying;
+      };
+      disableScroll();
+      // if (!localStorage.getItem("opened")) {
+      //   disableScroll();
+      // }
+    </script>
+    <!-- DISABLE-ENABLE SCROLL JS -->
+
+    <!-- RESPONSE FORM -->
+    <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Success!");
+          });
+        });
+      });
+    </script>
+    <!-- RESPONSE FORM -->
+
+    <!-- GUEST NAME INVITATION JS -->
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const name = urlParams.get("name") || "";
+      const pronoun = urlParams.get("p") || "Esteemed Guest";
+
+      const nameContainer = document.querySelector(".hero h4 span");
+      nameContainer.innerText = `${pronoun}. ${name},`.replace(/, $/, ",");
+
+      document.querySelector("#name").value = name;
+    </script>
+    <!-- GUEST NAME INVITATION JS -->
+  </body>
+</html>
